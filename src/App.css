@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.App {
+  text-align: center;
+
+  border: solid black;
+  width: 800px;
+  display: flex;
+}
+/*  */
+#homePage {
+  border: solid palevioletred;
+  width: 400px;
+  height: 500px;
+}
+#homePage > p {
+  border: solid blue;
+  height: 50px;
+}
+
+#employeeList {
+  border: solid gold;
+}
+
+#employeeListItem {
+  border: solid lime;
+  height: 50px;
+}
+
+
+/* employee */
+#employeePage {
+  border: solid green;
+  width:600px;
+}
+#header {
+  border: solid blue;
+  height: 50px;
+}
+.employeeCard {
+  border: solid turquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cardImg {
+  border: solid brown;
+  width: 140px;
+  height: auto;
+}
+.employeeCardTxt {
+  border: solid firebrick;
+  height: 60px;
+  width: 250px;
+}
