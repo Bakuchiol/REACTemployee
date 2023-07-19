@@ -8,6 +8,7 @@ function SearchBar() {
         <input
         type='text'
         placeholder='Employee Search'
+        // onChange={}
         >
         </input>
     </form>
