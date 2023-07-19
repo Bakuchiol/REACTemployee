@@ -11,8 +11,6 @@ body {
 
 
 .App {
-  text-align: center;
-
   border: solid black;
   width: 800px;
   display: flex;
@@ -26,6 +24,16 @@ body {
 #homePage > p {
   border: solid blue;
   height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  margin: 8px;
+  padding-left: 8px;
+
 }
 
 #employeeList {
@@ -35,6 +43,16 @@ body {
 #employeeListItem {
   border: solid lime;
   height: 50px;
+}
+.listWrapper {
+  display: flex;
+  padding-top: 5px;
+}
+.pic {
+  border: solid green;
+  width: 40px;
+  height: 40px;
+  margin: 0 20px 0 10px;
 }
 
 
@@ -46,6 +64,8 @@ body {
 #header {
   border: solid blue;
   height: 50px;
+  text-align: center;
+  padding-top: 15px;
 }
 .employeeCard {
   border: solid turquoise;

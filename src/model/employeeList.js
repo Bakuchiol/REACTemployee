@@ -2,7 +2,7 @@ const personnel = [
     {
         name: 'James King',
         title: 'President and CEO',
-        img: 'PIC HERE'
+        img: 'public/images/p1.png'
     },
     {
         name: 'Julie Taylor',
@@ -26,12 +26,12 @@ const personnel = [
     {
         name: 'Ray Moore',
         title: 'VP of Sales',
-        img: 'PIC HERE'
+        img: 'public/images/p2.png'
     },
     {
         name: 'Paul Jones',
         title: 'QA Manager',
-        img: 'PIC HERE'
+        img: 'public/images/p3.png'
     }
 ]
 

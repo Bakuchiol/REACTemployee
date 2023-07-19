@@ -1,11 +1,24 @@
 import { useState, createContext } from "react";
-import employeeList from '../model/employeeList'
-import personnel from "../model/employeeList";
+import employeeList from "../model/employeeList";
 
-export const WorkerContext = createContext();
+export const AppContext = createContext();
 
-function EmployeeContextProvider(props){
-    const [person, setWorker] = useState(personnel[0]);
-    const [ employee, setEmployee] = useState(personnel);
-    
+function AppContextProvider(props){
+    const [person, setPerson] = useState(employeeList[0]); // current employee
+    const [ employees, setEmployees] = useState(employeeList); // all employees
+
+    console.log(employeeList)
+
+    // return
+    return (<AppContext.Provider value={(
+        // props??
+        person, setPerson,
+        employees, setEmployees
+    )}>
+        {/* props */}
+        {props.children}
+    </AppContext.Provider>
+    )
 }
+
+export default AppContextProvider;
