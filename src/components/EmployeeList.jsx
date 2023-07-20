@@ -1,5 +1,6 @@
 import React from 'react'
 import EmployeeListItem from './EmployeeListItem'
+import AddNew from './AddNew'
 // import employeeList from '../model/employeeList'
 
 // import { useState } from 'react'
@@ -26,6 +27,7 @@ function EmployeeList() {
             )
         })}
 
+        <AddNew />
 
       {/* <EmployeeListItem  info={employeeList}/> */}
     </div>

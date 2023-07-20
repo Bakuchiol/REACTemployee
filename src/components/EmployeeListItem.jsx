@@ -16,9 +16,9 @@ function EmployeeListItem(props) {
     >
     <div className='listWrapper'>
         <img src={props.worker.img} alt="profile" className='pic'/>
-        <div className='listImg'>
-            <p>{props.worker.name}</p>
-            <p>{props.worker.title}</p>
+        <div className='listDesc'>
+            <p className='listName'>{props.worker.name}</p>
+            <p className='listSub'>{props.worker.title}</p>
         </div>
     </div>
       {/* console.log({person.name}) */}
