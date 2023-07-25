@@ -4,7 +4,7 @@ import Header from './Header'
 // import EmployeeListItem from './EmployeeListItem'
 import { useContext } from 'react';
 import { AppContext } from '../contexts/app_context'
-import EditEmployee from './EditEmployee';
+// import EditEmployee from './EditEmployee';
 // import EditEmployeePage from './EditEmployeePage';
 
 function EmployeePage() {
@@ -13,12 +13,12 @@ function EmployeePage() {
     let {person} = useContext(AppContext);
 
     // testing
-    const show =() =>{
-      if(openPage === true){
-        openPage = false;
-      }
-      // <EditEmployeePage />
-    }
+    // const show =() =>{
+    //   if(openPage === true){
+    //     openPage = false;
+    //   }
+    //   // <EditEmployeePage />
+    // }
 
 
   return (
@@ -59,7 +59,7 @@ function EmployeePage() {
         </div>
         {/* EDIT btn */}
         <div className='editBox'>
-          <EditEmployee />
+          {/* <EditEmployee /> */}
         </div>
       </div>
       </>
